@@ -1,0 +1,31 @@
+{
+    "monitors": [
+      {
+        "name": "Monitor 1",
+        "script": null,
+        "result": {
+          "value": 42,
+          "processed_at": "2023-05-04T15:32:17.890Z"
+        },
+        "code": "MON001"
+      },
+      {
+        "name": "Monitor 2",
+        "script": "/path/to/script.sh",
+        "result": {
+          "value": 17,
+          "processed_at": "2023-05-04T15:32:17.890Z"
+        },
+        "code": "MON002"
+      },
+      {
+        "name": "Server Monitor",
+        "script": null,
+        "result": {
+          "value": 89,
+          "processed_at": "2023-05-04T15:32:17.890Z"
+        },
+        "code": "SRVMON"
+      }
+    ]
+  }
